@@ -1,0 +1,36 @@
+/* Background container */
+.div-con {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; /* Prevent overflowing */
+}
+
+/* Blurred background */
+.div-con::before {
+    content: "";
+    background-image: url("https://ideogram.ai/api/images/direct/6aED-eIPSNCEVWjKtELLQA.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Keep it behind the focused image */
+}
+
+/* Focused image on top */
+.imgg img {
+    width: 100%; /* Make it responsive */
+    height: auto;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Keep it above the background */
+    /* border: 2px solid red; */
+    object-fit: cover; /* Ensure image fits within its container */
+}
