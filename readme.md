@@ -1,7 +1,7 @@
 # ready-made-components--code-only
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/yourusername/ready-made-components--code-only)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/ArifMiah07/ready-made-components--code-only)
 
 A curated library of reusable UI components and code snippets, designed for ease of use and efficiency in your daily development workflow. This repository serves as a **comprehensive library** of essential components like buttons, forms, navigation bars, carousels, icons, and more. The goal is to reduce repetitive work and provide high-quality, ready-to-use code components for any project.
 
@@ -48,5 +48,5 @@ This repository provides a collection of **ready-made code components** commonly
 Clone the repository to get started:
 
 ```bash
-git clone https://github.com/yourusername/ready-made-components--code-only.git
+git clone https://github.com/ArifMiah07/ready-made-components--code-only.git
 cd ready-made-components--code-only
